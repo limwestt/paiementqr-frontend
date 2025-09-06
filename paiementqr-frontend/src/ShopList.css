@@ -1,0 +1,68 @@
+/* Conteneur liste des boutiques */
+.shop-list {
+  max-width: 700px;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+/* Chaque boutique */
+.boutique {
+  background: white;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  font-size: 15px;
+  color: #33475b;
+}
+
+/* Nom de la boutique */
+.boutique strong {
+  font-size: 1.2rem;
+  color: #23579a;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Image QR code */
+.qr-code {
+  display: block;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+/* Boutons modifier/supprimer */
+.boutique-buttons {
+  margin-top: 8px;
+}
+
+.boutique-buttons button {
+  margin: 0 6px 0 0;
+  padding: 8px 16px;
+  font-weight: 500;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.boutique-buttons button:hover {
+  background-color: #2980b9;
+}
+
+/* Message de chargement */
+.loading-text {
+  font-size: 16px;
+  color: #34495e;
+  font-weight: 600;
+  margin: 30px auto;
+  max-width: 700px;
+  text-align: center;
+}

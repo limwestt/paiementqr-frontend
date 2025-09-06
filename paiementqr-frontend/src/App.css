@@ -1,0 +1,124 @@
+/* Style général du corps */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f7f9fc;
+}
+
+/* Titres */
+h2, h3 {
+  color: #2c3e50;
+}
+
+/* Formulaire */
+form {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+
+/* Champs de saisie */
+input, textarea {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Boutons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Liste des boutiques */
+ul li {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* Conteneur général de la liste */
+.liste-boutiques {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/* Chaque boutique dans la liste */
+.boutique {
+  background: #fff;
+  border: 1px solid #eff0f1;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(60,80,130,0.05);
+  margin-bottom: 18px;
+  padding: 20px;
+  font-size: 14px;
+  color: #35405e;
+}
+
+/* Titre boutique */
+.boutique h4 {
+  margin: 0 0 8px 0;
+  color: #23579a;
+  font-weight: 700;
+}
+
+/* Description boutique */
+.boutique p {
+  margin: 4px 0;
+}
+
+/* Conteneur QR code */
+.qr-container {
+  margin: 12px 0;
+}
+
+/* Taille QR code */
+.qr-container img {
+  width: 90px;
+  height: 90px;
+  display: block;
+}
+
+/* Boutons d'action */
+.boutique button {
+  background-color: #4678fa;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-weight: 600;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.boutique button:hover {
+  background-color: #2953b6;
+}
+
+/* Message d'erreur */
+.error {
+  color: red;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
